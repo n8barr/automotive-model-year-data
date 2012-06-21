@@ -1,4 +1,20 @@
 automotive-model-year-data
 ==========================
 
-Automotive data including vehicle model, make, and year for database creation
+Automotive data including vehicle model, make, and year for database creation. Currently includes 4,675 model-years.
+
+### To use:
+	
+	$ cd automotive-model-year-data
+	$ mysql -u root
+	mysql> use yourDbName;
+	mysql> source schema.sql;
+	mysql> source data.sql;
+
+### Notes:
+
+I needed vehicle data for an app and could not find any source that was complete, clean, and free. I hope this can help others who face the same challenge :)
+
+Please send pull requests for any data additions or modifications you find necessary!
+
+This data is sourced partly from [Freebase](http://freebase.com), licensed under [CC-BY](http://creativecommons.org/licenses/by/2.5/), and is free for you to use and modify under that license.
