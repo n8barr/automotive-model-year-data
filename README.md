@@ -1,7 +1,7 @@
 automotive-model-year-data
 ==========================
 
-Automotive data including vehicle model, make, and year for database creation. Currently includes 7,378 model-years.
+Automotive data including vehicle model, make, and year for database creation. Currently includes 7,352 model-years.
 
 ### To use:
 	
