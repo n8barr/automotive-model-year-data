@@ -5361,7 +5361,6 @@
 (2007, 'Audi', 'S8'),
 (2007, 'Audi', 'S6'),
 (2007, 'Audi', 'RS 4'),
-(2007, 'Toyota RAV4', 'RAV4'),
 (2007, 'Jaguar', 'XK'),
 (2007, 'Jaguar', 'X-Type'),
 (2007, 'Jaguar', 'S-Type'),
