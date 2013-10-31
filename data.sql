@@ -6623,7 +6623,7 @@
 (2010, 'Tesla', 'Roadster'),
 (2010, 'Smart', 'Fortwo'),
 (2010, 'Aptera', 'Type-1h'),
-(2010, 'Defender', 'Ice Edition'),
+(2010, 'Land Rover', 'Defender Ice Edition'),
 (2010, 'HUMMER', 'H3'),
 (2010, 'HUMMER', 'H3T'),
 (2010, 'Pontiac', 'G3'),
