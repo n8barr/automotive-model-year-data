@@ -1,4 +1,3 @@
-INSERT INTO year (year,model_id) SELECT 1906, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Ford' AND m.model='T';
 INSERT INTO year (year,model_id) SELECT 1926, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Chrysler' AND m.model='Imperial';
 INSERT INTO year (year,model_id) SELECT 1948, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Citroën' AND m.model='2CV';
 INSERT INTO year (year,model_id) SELECT 1950, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Hillman' AND m.model='Minx Magnificent';
