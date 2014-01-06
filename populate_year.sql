@@ -4931,7 +4931,6 @@ INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='V70';
 INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC70';
 INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC90';
-INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='$2' AND m.model='$3';
 INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='MDX';
 INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RL';
 INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RSX';
@@ -5313,7 +5312,6 @@ INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='V70';
 INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC70';
 INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC90';
-INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='$2' AND m.model='$3';
 INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='MDX';
 INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RDX';
 INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RL';
@@ -5670,7 +5668,6 @@ INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='V70';
 INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC70';
 INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC90';
-INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='$2' AND m.model='$3';
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='MDX';
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RDX';
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RL';
@@ -6051,7 +6048,6 @@ INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='V70';
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC70';
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC90';
-INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='$2' AND m.model='$3';
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='MDX';
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RDX';
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RL';
@@ -6433,7 +6429,6 @@ INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC60';
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC70';
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC90';
-INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='$2' AND m.model='$3';
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='MDX';
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RDX';
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RL';
@@ -6792,7 +6787,6 @@ INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC60';
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC70';
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC90';
-INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='$2' AND m.model='$3';
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='MDX';
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RDX';
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RL';
@@ -7148,7 +7142,6 @@ INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC60';
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC70';
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC90';
-INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='$2' AND m.model='$3';
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='MDX';
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RDX';
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RL';
@@ -7495,7 +7488,6 @@ INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC60';
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC70';
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC90';
-INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='$2' AND m.model='$3';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Audi' AND m.model='A3 E85';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Audi' AND m.model='A4 Flex';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Audi' AND m.model='S4';
