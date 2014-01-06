@@ -194,6 +194,7 @@ INSERT INTO year (year,model_id) SELECT 1981, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 1981, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Corolla';
 INSERT INTO year (year,model_id) SELECT 1982, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Chevrolet' AND m.model='Camaro';
 INSERT INTO year (year,model_id) SELECT 1982, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Pontiac' AND m.model='Grand Prix';
+INSERT INTO year (year,model_id) SELECT 1982, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ronda';
 INSERT INTO year (year,model_id) SELECT 1982, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Celica';
 INSERT INTO year (year,model_id) SELECT 1982, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Corolla';
 INSERT INTO year (year,model_id) SELECT 1983, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Chevrolet' AND m.model='Caprice';
@@ -208,6 +209,7 @@ INSERT INTO year (year,model_id) SELECT 1983, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 1983, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Pontiac' AND m.model='Sunbird';
 INSERT INTO year (year,model_id) SELECT 1983, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Porsche' AND m.model='944';
 INSERT INTO year (year,model_id) SELECT 1983, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Renault' AND m.model='Alliance';
+INSERT INTO year (year,model_id) SELECT 1983, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ronda';
 INSERT INTO year (year,model_id) SELECT 1983, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Celica';
 INSERT INTO year (year,model_id) SELECT 1983, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Corolla';
 INSERT INTO year (year,model_id) SELECT 1983, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='Golf';
@@ -272,6 +274,7 @@ INSERT INTO year (year,model_id) SELECT 1984, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 1984, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Pontiac' AND m.model='Sunbird';
 INSERT INTO year (year,model_id) SELECT 1984, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Porsche' AND m.model='944';
 INSERT INTO year (year,model_id) SELECT 1984, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saab' AND m.model='900';
+INSERT INTO year (year,model_id) SELECT 1984, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ronda';
 INSERT INTO year (year,model_id) SELECT 1984, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Brat';
 INSERT INTO year (year,model_id) SELECT 1984, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Suzuki' AND m.model='SJ 410';
 INSERT INTO year (year,model_id) SELECT 1984, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Celica';
@@ -359,6 +362,7 @@ INSERT INTO year (year,model_id) SELECT 1985, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 1985, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Porsche' AND m.model='944';
 INSERT INTO year (year,model_id) SELECT 1985, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saab' AND m.model='900';
 INSERT INTO year (year,model_id) SELECT 1985, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 1985, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ronda';
 INSERT INTO year (year,model_id) SELECT 1985, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='BRAT';
 INSERT INTO year (year,model_id) SELECT 1985, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Leone';
 INSERT INTO year (year,model_id) SELECT 1985, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='XT';
@@ -458,6 +462,7 @@ INSERT INTO year (year,model_id) SELECT 1986, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 1986, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saab' AND m.model='900';
 INSERT INTO year (year,model_id) SELECT 1986, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saab' AND m.model='9000';
 INSERT INTO year (year,model_id) SELECT 1986, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 1986, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ronda';
 INSERT INTO year (year,model_id) SELECT 1986, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='BRAT';
 INSERT INTO year (year,model_id) SELECT 1986, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Leone';
 INSERT INTO year (year,model_id) SELECT 1986, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='XT';
@@ -972,6 +977,7 @@ INSERT INTO year (year,model_id) SELECT 1991, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 1991, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saab' AND m.model='900';
 INSERT INTO year (year,model_id) SELECT 1991, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saab' AND m.model='9000';
 INSERT INTO year (year,model_id) SELECT 1991, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 1991, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 1991, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Justy';
 INSERT INTO year (year,model_id) SELECT 1991, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Legacy';
 INSERT INTO year (year,model_id) SELECT 1991, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Loyale';
@@ -1246,6 +1252,7 @@ INSERT INTO year (year,model_id) SELECT 1992, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 1992, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saab' AND m.model='9000';
 INSERT INTO year (year,model_id) SELECT 1992, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saturn' AND m.model='S-Series';
 INSERT INTO year (year,model_id) SELECT 1992, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 1992, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 1992, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Alcyone SVX';
 INSERT INTO year (year,model_id) SELECT 1992, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Justy';
 INSERT INTO year (year,model_id) SELECT 1992, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Legacy';
@@ -1544,6 +1551,7 @@ INSERT INTO year (year,model_id) SELECT 1993, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 1993, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saab' AND m.model='9000';
 INSERT INTO year (year,model_id) SELECT 1993, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saturn' AND m.model='S-Series';
 INSERT INTO year (year,model_id) SELECT 1993, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 1993, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 1993, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Alcyone SVX';
 INSERT INTO year (year,model_id) SELECT 1993, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Impreza';
 INSERT INTO year (year,model_id) SELECT 1993, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Justy';
@@ -1816,6 +1824,7 @@ INSERT INTO year (year,model_id) SELECT 1994, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 1994, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saab' AND m.model='9000';
 INSERT INTO year (year,model_id) SELECT 1994, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saturn' AND m.model='S-Series';
 INSERT INTO year (year,model_id) SELECT 1994, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 1994, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 1994, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Alcyone SVX';
 INSERT INTO year (year,model_id) SELECT 1994, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Impreza';
 INSERT INTO year (year,model_id) SELECT 1994, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Justy';
@@ -1834,6 +1843,7 @@ INSERT INTO year (year,model_id) SELECT 1994, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 1994, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='MR2';
 INSERT INTO year (year,model_id) SELECT 1994, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Paseo';
 INSERT INTO year (year,model_id) SELECT 1994, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Previa';
+INSERT INTO year (year,model_id) SELECT 1994, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='RAV4';
 INSERT INTO year (year,model_id) SELECT 1994, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Supra';
 INSERT INTO year (year,model_id) SELECT 1994, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='T100';
 INSERT INTO year (year,model_id) SELECT 1994, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tercel';
@@ -2081,6 +2091,7 @@ INSERT INTO year (year,model_id) SELECT 1995, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 1995, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saab' AND m.model='9000';
 INSERT INTO year (year,model_id) SELECT 1995, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saturn' AND m.model='S-Series';
 INSERT INTO year (year,model_id) SELECT 1995, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 1995, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 1995, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Alcyone SVX';
 INSERT INTO year (year,model_id) SELECT 1995, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Impreza';
 INSERT INTO year (year,model_id) SELECT 1995, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Legacy';
@@ -2099,6 +2110,7 @@ INSERT INTO year (year,model_id) SELECT 1995, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 1995, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='MR2';
 INSERT INTO year (year,model_id) SELECT 1995, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Paseo';
 INSERT INTO year (year,model_id) SELECT 1995, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Previa';
+INSERT INTO year (year,model_id) SELECT 1995, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='RAV4';
 INSERT INTO year (year,model_id) SELECT 1995, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Supra';
 INSERT INTO year (year,model_id) SELECT 1995, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='T100 Xtra';
 INSERT INTO year (year,model_id) SELECT 1995, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='T100';
@@ -2341,6 +2353,7 @@ INSERT INTO year (year,model_id) SELECT 1996, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 1996, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saab' AND m.model='9000';
 INSERT INTO year (year,model_id) SELECT 1996, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saturn' AND m.model='S-Series';
 INSERT INTO year (year,model_id) SELECT 1996, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 1996, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 1996, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Alcyone SVX';
 INSERT INTO year (year,model_id) SELECT 1996, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Impreza';
 INSERT INTO year (year,model_id) SELECT 1996, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Legacy';
@@ -2596,6 +2609,7 @@ INSERT INTO year (year,model_id) SELECT 1997, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 1997, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saab' AND m.model='9000';
 INSERT INTO year (year,model_id) SELECT 1997, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saturn' AND m.model='S-Series';
 INSERT INTO year (year,model_id) SELECT 1997, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 1997, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 1997, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Alcyone SVX';
 INSERT INTO year (year,model_id) SELECT 1997, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Impreza';
 INSERT INTO year (year,model_id) SELECT 1997, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Legacy';
@@ -2844,6 +2858,7 @@ INSERT INTO year (year,model_id) SELECT 1998, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 1998, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saab' AND m.model='9000';
 INSERT INTO year (year,model_id) SELECT 1998, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saturn' AND m.model='S-Series';
 INSERT INTO year (year,model_id) SELECT 1998, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 1998, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 1998, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Forester';
 INSERT INTO year (year,model_id) SELECT 1998, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Impreza';
 INSERT INTO year (year,model_id) SELECT 1998, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Legacy';
@@ -3101,6 +3116,8 @@ INSERT INTO year (year,model_id) SELECT 1999, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 1999, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saab' AND m.model='9000';
 INSERT INTO year (year,model_id) SELECT 1999, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saturn' AND m.model='S-Series';
 INSERT INTO year (year,model_id) SELECT 1999, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 1999, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='León';
+INSERT INTO year (year,model_id) SELECT 1999, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 1999, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Forester';
 INSERT INTO year (year,model_id) SELECT 1999, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Impreza';
 INSERT INTO year (year,model_id) SELECT 1999, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Legacy';
@@ -3120,6 +3137,7 @@ INSERT INTO year (year,model_id) SELECT 1999, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 1999, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Solara';
 INSERT INTO year (year,model_id) SELECT 1999, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tacoma Xtra';
 INSERT INTO year (year,model_id) SELECT 1999, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tacoma';
+INSERT INTO year (year,model_id) SELECT 1999, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Yaris';
 INSERT INTO year (year,model_id) SELECT 1999, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='Cabriolet';
 INSERT INTO year (year,model_id) SELECT 1999, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='Eurovan';
 INSERT INTO year (year,model_id) SELECT 1999, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='GTI';
@@ -3354,6 +3372,8 @@ INSERT INTO year (year,model_id) SELECT 2000, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2000, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saturn' AND m.model='L-Series';
 INSERT INTO year (year,model_id) SELECT 2000, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saturn' AND m.model='S-Series';
 INSERT INTO year (year,model_id) SELECT 2000, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 2000, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='León';
+INSERT INTO year (year,model_id) SELECT 2000, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 2000, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Forester';
 INSERT INTO year (year,model_id) SELECT 2000, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Impreza';
 INSERT INTO year (year,model_id) SELECT 2000, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Legacy';
@@ -3378,6 +3398,7 @@ INSERT INTO year (year,model_id) SELECT 2000, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2000, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tacoma Xtra';
 INSERT INTO year (year,model_id) SELECT 2000, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tacoma';
 INSERT INTO year (year,model_id) SELECT 2000, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tundra';
+INSERT INTO year (year,model_id) SELECT 2000, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Yaris';
 INSERT INTO year (year,model_id) SELECT 2000, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='Cabriolet';
 INSERT INTO year (year,model_id) SELECT 2000, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='Eurovan';
 INSERT INTO year (year,model_id) SELECT 2000, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='GTI';
@@ -3622,6 +3643,8 @@ INSERT INTO year (year,model_id) SELECT 2001, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2001, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saturn' AND m.model='L-Series';
 INSERT INTO year (year,model_id) SELECT 2001, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saturn' AND m.model='S-Series';
 INSERT INTO year (year,model_id) SELECT 2001, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 2001, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='León';
+INSERT INTO year (year,model_id) SELECT 2001, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 2001, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Forester';
 INSERT INTO year (year,model_id) SELECT 2001, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Impreza';
 INSERT INTO year (year,model_id) SELECT 2001, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Legacy';
@@ -3649,6 +3672,7 @@ INSERT INTO year (year,model_id) SELECT 2001, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2001, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tacoma Xtra';
 INSERT INTO year (year,model_id) SELECT 2001, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tacoma';
 INSERT INTO year (year,model_id) SELECT 2001, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tundra';
+INSERT INTO year (year,model_id) SELECT 2001, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Yaris';
 INSERT INTO year (year,model_id) SELECT 2001, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='Cabriolet';
 INSERT INTO year (year,model_id) SELECT 2001, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='Eurovan';
 INSERT INTO year (year,model_id) SELECT 2001, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='GTI';
@@ -3905,6 +3929,8 @@ INSERT INTO year (year,model_id) SELECT 2002, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2002, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saturn' AND m.model='S-Series';
 INSERT INTO year (year,model_id) SELECT 2002, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saturn' AND m.model='VUE';
 INSERT INTO year (year,model_id) SELECT 2002, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 2002, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='León';
+INSERT INTO year (year,model_id) SELECT 2002, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 2002, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Forester';
 INSERT INTO year (year,model_id) SELECT 2002, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Impreza';
 INSERT INTO year (year,model_id) SELECT 2002, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Legacy';
@@ -3933,6 +3959,7 @@ INSERT INTO year (year,model_id) SELECT 2002, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2002, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tacoma Xtra';
 INSERT INTO year (year,model_id) SELECT 2002, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tacoma';
 INSERT INTO year (year,model_id) SELECT 2002, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tundra';
+INSERT INTO year (year,model_id) SELECT 2002, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Yaris';
 INSERT INTO year (year,model_id) SELECT 2002, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='Cabriolet';
 INSERT INTO year (year,model_id) SELECT 2002, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='Eurovan';
 INSERT INTO year (year,model_id) SELECT 2002, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='GTI';
@@ -4195,6 +4222,8 @@ INSERT INTO year (year,model_id) SELECT 2003, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2003, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saturn' AND m.model='L-Series';
 INSERT INTO year (year,model_id) SELECT 2003, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saturn' AND m.model='VUE';
 INSERT INTO year (year,model_id) SELECT 2003, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 2003, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='León';
+INSERT INTO year (year,model_id) SELECT 2003, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 2003, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Baja';
 INSERT INTO year (year,model_id) SELECT 2003, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Forester';
 INSERT INTO year (year,model_id) SELECT 2003, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Impreza';
@@ -4223,6 +4252,7 @@ INSERT INTO year (year,model_id) SELECT 2003, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2003, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tacoma Xtra';
 INSERT INTO year (year,model_id) SELECT 2003, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tacoma';
 INSERT INTO year (year,model_id) SELECT 2003, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tundra';
+INSERT INTO year (year,model_id) SELECT 2003, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Yaris';
 INSERT INTO year (year,model_id) SELECT 2003, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='Eurovan';
 INSERT INTO year (year,model_id) SELECT 2003, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='GTI';
 INSERT INTO year (year,model_id) SELECT 2003, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='Golf';
@@ -4497,7 +4527,10 @@ INSERT INTO year (year,model_id) SELECT 2004, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2004, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saturn' AND m.model='VUE';
 INSERT INTO year (year,model_id) SELECT 2004, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='xA';
 INSERT INTO year (year,model_id) SELECT 2004, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='xB';
+INSERT INTO year (year,model_id) SELECT 2004, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea';
 INSERT INTO year (year,model_id) SELECT 2004, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 2004, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='León';
+INSERT INTO year (year,model_id) SELECT 2004, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 2004, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Spyker' AND m.model='C8 Laviolette';
 INSERT INTO year (year,model_id) SELECT 2004, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Spyker' AND m.model='C8 Spyder Wide Body';
 INSERT INTO year (year,model_id) SELECT 2004, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Spyker' AND m.model='C8 Spyder';
@@ -4534,6 +4567,7 @@ INSERT INTO year (year,model_id) SELECT 2004, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2004, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tacoma Xtra';
 INSERT INTO year (year,model_id) SELECT 2004, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tacoma';
 INSERT INTO year (year,model_id) SELECT 2004, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tundra';
+INSERT INTO year (year,model_id) SELECT 2004, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Yaris';
 INSERT INTO year (year,model_id) SELECT 2004, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='GTI';
 INSERT INTO year (year,model_id) SELECT 2004, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='Golf';
 INSERT INTO year (year,model_id) SELECT 2004, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='Jetta';
@@ -4823,7 +4857,10 @@ INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='tC';
 INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='xA';
 INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='xB';
+INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea';
 INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='León';
+INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Spyker' AND m.model='C8';
 INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Baja';
 INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Forester';
@@ -4857,6 +4894,7 @@ INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Solara';
 INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tacoma';
 INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Tundra';
+INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Yaris';
 INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='GTI';
 INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='Golf';
 INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='Jetta';
@@ -4871,6 +4909,7 @@ INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='V70';
 INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC70';
 INSERT INTO year (year,model_id) SELECT 2005, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC90';
+INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='$2' AND m.model='$3';
 INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='MDX';
 INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RL';
 INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RSX';
@@ -5194,7 +5233,11 @@ INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='tC';
 INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='xA';
 INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='xB';
+INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea XL';
+INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea';
 INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='León';
+INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Spyker' AND m.model='C8 Double 12 S';
 INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Spyker' AND m.model='C8';
 INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='B9 Tribeca';
@@ -5247,6 +5290,7 @@ INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='V70';
 INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC70';
 INSERT INTO year (year,model_id) SELECT 2006, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC90';
+INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='$2' AND m.model='$3';
 INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='MDX';
 INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RDX';
 INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RL';
@@ -5542,7 +5586,11 @@ INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saturn' AND m.model='Sky';
 INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Saturn' AND m.model='VUE';
 INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='tC';
+INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea XL';
+INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea';
 INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='León';
+INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Spyker' AND m.model='C8';
 INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='B9 Tribeca';
 INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Forester';
@@ -5594,6 +5642,7 @@ INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='V70';
 INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC70';
 INSERT INTO year (year,model_id) SELECT 2007, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC90';
+INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='$2' AND m.model='$3';
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='MDX';
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RDX';
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RL';
@@ -5911,8 +5960,12 @@ INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='tC';
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='xB';
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='xD';
+INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea XL';
+INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea';
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Exeo';
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='León';
+INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Smart' AND m.model='Fortwo';
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Forester';
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Impreza';
@@ -5965,6 +6018,7 @@ INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='V70';
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC70';
 INSERT INTO year (year,model_id) SELECT 2008, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC90';
+INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='$2' AND m.model='$3';
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='MDX';
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RDX';
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RL';
@@ -6283,8 +6337,12 @@ INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='tC';
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='xB';
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='xD';
+INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea XL';
+INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea';
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Exeo';
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='León';
+INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Smart' AND m.model='Fortwo';
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Forester';
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Impreza';
@@ -6337,6 +6395,7 @@ INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC60';
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC70';
 INSERT INTO year (year,model_id) SELECT 2009, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC90';
+INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='$2' AND m.model='$3';
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='MDX';
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RDX';
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RL';
@@ -6631,8 +6690,12 @@ INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='tC';
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='xB';
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='xD';
+INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea XL';
+INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea';
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Exeo';
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='León';
+INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Smart' AND m.model='Fortwo';
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Forester';
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Impreza WRX';
@@ -6685,6 +6748,7 @@ INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC60';
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC70';
 INSERT INTO year (year,model_id) SELECT 2010, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC90';
+INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='$2' AND m.model='$3';
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='MDX';
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RDX';
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RL';
@@ -6979,8 +7043,12 @@ INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='tC';
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='xB';
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='xD';
+INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea XL';
+INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea';
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Exeo';
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='León';
+INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Smart' AND m.model='Fortwo';
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Forester';
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Impreza WRX';
@@ -7029,6 +7097,7 @@ INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC60';
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC70';
 INSERT INTO year (year,model_id) SELECT 2011, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC90';
+INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='$2' AND m.model='$3';
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='MDX';
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RDX';
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Acura' AND m.model='RL';
@@ -7311,8 +7380,12 @@ INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='tC';
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='xB';
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='xD';
+INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea XL';
+INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea';
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Exeo';
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='León';
+INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Smart' AND m.model='Fortwo';
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Forester';
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='Impreza';
@@ -7364,6 +7437,7 @@ INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC60';
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC70';
 INSERT INTO year (year,model_id) SELECT 2012, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC90';
+INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='$2' AND m.model='$3';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Audi' AND m.model='S4';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='BMW' AND m.model='X5 M';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='BMW' AND m.model='X5';
@@ -7422,18 +7496,30 @@ INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model 
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Rolls-Royce' AND m.model='Phantom';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='FR-S';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Scion' AND m.model='tC';
+INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea XL';
+INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Exeo';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='León';
+INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Subaru' AND m.model='BRZ';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Avensis';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Corolla';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Land Cruiser';
+INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='RAV4';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Venza';
+INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Yaris';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volkswagen' AND m.model='CC';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='C30';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='C70';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='S60';
 INSERT INTO year (year,model_id) SELECT 2013, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Volvo' AND m.model='XC90';
+INSERT INTO year (year,model_id) SELECT 2014, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea XL';
+INSERT INTO year (year,model_id) SELECT 2014, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Altea';
 INSERT INTO year (year,model_id) SELECT 2014, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Ibiza';
+INSERT INTO year (year,model_id) SELECT 2014, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='León';
+INSERT INTO year (year,model_id) SELECT 2014, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Seat' AND m.model='Toledo';
 INSERT INTO year (year,model_id) SELECT 2014, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Avensis';
 INSERT INTO year (year,model_id) SELECT 2014, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Corolla';
+INSERT INTO year (year,model_id) SELECT 2014, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='RAV4';
+INSERT INTO year (year,model_id) SELECT 2014, m._id FROM manufacturer ma, model m WHERE m.make_id=ma._id AND ma.make='Toyota' AND m.model='Yaris';
