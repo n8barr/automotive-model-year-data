@@ -1,4 +1,4 @@
-﻿INSERT INTO VehicleModelYear (year, make, model) VALUES (1909, 'Ford', 'Model T'),
+INSERT INTO VehicleModelYear (year, make, model) VALUES (1909, 'Ford', 'Model T'),
 (1926, 'Chrysler', 'Imperial'),
 (1948, 'Citroën', '2CV'),
 (1950, 'Hillman', 'Minx Magnificent'),
@@ -5285,7 +5285,6 @@
 (2007, 'BMW', 'X3'),
 (2007, 'BMW', 'X5'),
 (2007, 'BMW', 'Alpina B7'),
-(2007, 'BMW', 'Z4'),
 (2007, 'BMW', 'Z4 M'),
 (2007, 'Dodge', 'Ram'),
 (2007, 'Dodge', 'Charger'),
