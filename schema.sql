@@ -1,4 +1,4 @@
-﻿CREATE TABLE `VehicleModelYear` (
+CREATE TABLE `VehicleModelYear` (
 	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
 	`year` INT(4) UNSIGNED NOT NULL,
 	`make` VARCHAR(50) NULL,
