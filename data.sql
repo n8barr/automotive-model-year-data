@@ -7265,4 +7265,5 @@ INSERT INTO VehicleModelYear (year, make, model) VALUES (1909, 'Ford', 'Model T'
 (2013, 'Volvo', 'C30'),
 (2013, 'Volvo', 'C70'),
 (2013, 'Volvo', 'S60'),
-(2013, 'Volvo', 'XC90');
+(2013, 'Volvo', 'XC90'),
+(2004, 'Dacia', 'Logan');
